@@ -1,0 +1,187 @@
+
+header{
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height:3rem;
+  position: relative;
+}
+header img{
+ margin-left: 4.25rem;
+ width: 8%;
+ height: auto;
+ }
+header a{
+  color: black;
+  padding-left: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+header a:hover{
+  text-decoration: underline;
+}
+.header-right{
+  display: flex;
+  position: absolute;
+  right: 0.4375rem;
+  margin-right: 5rem;
+  
+}
+.header-right a{
+  color: black;
+
+}
+.header-right .icon-sousuo{
+  font-size: 1.5rem;
+}
+.header-right .icon-gouwuche{
+  font-size: 1.5rem;
+}
+.header-right .icon-04{
+  font-size: 1.5rem;
+}
+.header-right a:hover{
+  text-decoration: underline;
+}
+
+.makt{
+  display: flex;
+  height: 4rem;
+  background-color: rgb(116, 25, 25);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.makt a{ 
+  margin-top: 1.3rem;
+  margin-left: 30%;
+  margin-right: 10%;
+  color: white;
+  text-decoration: none;
+}
+.makt a:hover{
+  text-decoration-line: underline;
+}
+.adver-img{
+  width: auto;
+  height: auto;
+}
+.adver-img img{
+  width: 100%;
+  height: auto;
+}
+.container{
+ margin: 1rem 4rem;
+}
+.otitl{
+  font-weight: bold;
+  font-size: 2rem;
+  color:brown;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.box{
+  width: 20rem;
+  height: auto;
+  max-height: 28rem;
+  margin-bottom: 4rem;
+  box-shadow: -0.5rem 0.5rem 0.5rem rgb(224, 223, 223);
+  transition:width 0.1s ease-in 0ms;
+  cursor: pointer;
+}
+.box .box-info{
+  height: 20rem;
+  margin: 1rem;
+}
+.box-info div{
+  height:10rem;
+}
+.imgs{
+  width: auto;
+  height: auto;
+}
+.imgs img{
+  width: 100%;
+  height: auto;
+}
+
+.discount{
+  margin: 2rem auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.dis-box{
+  width: 18rem;
+  height: auto;
+  max-height: 25rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: -0.5rem 0.5rem 0.5rem rgb(224, 223, 223);
+}
+.dis-box img{
+  width: 100%;
+  height: auto;
+}
+.info div{
+  height:10rem ;
+}
+.fanhui{
+  float: right;
+   background-color: rgb(229, 194, 36);
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   line-height: 3.125rem;
+   width: 7.375rem;
+   height: 3.125rem;
+   position: fixed;
+   right: 0.5rem;
+   bottom:0;
+   margin: 0.625rem;
+   border-radius: 0.5rem;
+   cursor: pointer;
+ }
+.serv{
+  float: right;
+  background-color: aliceblue;
+  position: fixed;
+  bottom:5rem;
+  right:0.5rem;
+  padding: 1rem;
+  width: 2rem;
+  height: 10rem;
+  border: 0px solid black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.serv span{
+  font-size: 2rem;
+}
+footer{
+  background-color: rgb(234, 235, 237);
+  height: auto;
+  width: 100%;
+  min-height: 23rem;
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul li{
+margin-top: 10rem;
+cursor: pointer;
+}

@@ -1,0 +1,58 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+//footer基本字号
+.login{
+  width: 20rem;
+  min-height: 25rem;
+  margin: 7rem 35rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 0.5rem rgb(151, 150, 150);
+  button{
+    margin-top: 1rem;
+  }
+}
+$FotZie: 1rem;
+footer {
+  margin-top: $FotZie;
+  background-image: linear-gradient(rgb(234, 232, 232), rgb(228, 228, 228));
+  //占满格子
+  width: 100%;
+  display: flex;
+  //让内容在主轴上居中
+  justify-content: space-around;
+  padding: 2*$FotZie;
+}
+
+.footerlan {
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+footer strong {
+  font-size: 1.25rem;
+  color: rgb(91, 86, 86);
+}
+
+footer a {
+  color: rgb(96, 92, 92);
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul li {
+  margin-top: 1rem;
+}
+
+
+
